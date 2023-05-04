@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -10,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UserModule } from './user/user.module';
 import { AdminModule } from './admin/admin.module';
+import { MainpageComponent } from './shared/mainpage/mainpage.component';
 
 @NgModule({
   declarations: [
@@ -22,9 +22,7 @@ import { AdminModule } from './admin/admin.module';
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    HttpClientModule,
-    UserModule,
-    AdminModule
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

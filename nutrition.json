@@ -80,6 +80,34 @@
       "username": "vishanthan shree",
       "type": "user",
       "id": 12
+    },
+    {
+      "email": "hello@gmail.com",
+      "password": "$2a$10$9MYAyYwB3E4Yze5EIFSh7e88Gv3llQVWhRNdZGHTG7QLIU7GDMa2y",
+      "username": "hello",
+      "type": "user",
+      "id": 13
+    },
+    {
+      "email": "yellow@gmail.com",
+      "password": "$2a$10$0MZyMyVM.2GPadML6TLxMu68kKqH0VtmmXdxGmODrNfcykaV.93Iy",
+      "username": "yellow",
+      "type": "user",
+      "id": 14
+    },
+    {
+      "email": "vichu@gmail.com",
+      "password": "$2a$10$qvKqPSHKHrtuqZe610xuo.vmvazQntmhqNmUM2edl3B9ox5CAQ6WC",
+      "username": "vichu",
+      "type": "user",
+      "id": 15
+    },
+    {
+      "email": "monika@gmail.com",
+      "password": "$2a$10$6sexrgwNfrX5CR2w8hJbhO74MxUJkuCtKFrUVRQGPd0eeFmwfJH56",
+      "username": "monika",
+      "type": "user",
+      "id": 16
     }
   ],
   "carousel": [

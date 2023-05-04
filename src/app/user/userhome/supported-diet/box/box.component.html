@@ -1,0 +1,11 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>{{pd.category | uppercase}}</mat-card-title>
+    </mat-card-header>
+    <img mat-card-image src="http://localhost/{{pd.image}}" alt="Photo of a Shiba Inu" class="image">
+    
+    <mat-card-actions>
+      <a routerLink="/{{pd.id}}">DETAILS</a>
+      </mat-card-actions>
+  </mat-card>

@@ -7,7 +7,13 @@ import { ProductComponent } from './userhome/product/product.component';
 import { ProductrowComponent } from './userhome/productrow/productrow.component';
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MainpageComponent } from '../shared/mainpage/mainpage.component';
+import { MaterialModule } from '../material/material.module';
+import { SupportedDietComponent } from './userhome/supported-diet/supported-diet.component';
+import { BoxComponent } from './userhome/supported-diet/box/box.component';
+import { CategoryComponent } from './userhome/category/category.component';
+import { CategoryBoxComponent } from './userhome/category/category-box/category-box.component';
 
 const route:Routes=[
 
@@ -20,9 +26,13 @@ const route:Routes=[
       component: UserhomeComponent
     },
     {
-      path:"details",
-      component: DetailsComponent
-    }
+      path:"sup",
+      component: SupportedDietComponent
+    },
+    {
+      path : ':id',
+      component : DetailsComponent}
+
   ]
 }
 
@@ -34,13 +44,21 @@ const route:Routes=[
     UserhomeComponent,
     DetailsComponent,
     ProductComponent,
-    ProductrowComponent
+    ProductrowComponent,
+    SupportedDietComponent,
+    BoxComponent,
+    CategoryComponent,
+    CategoryBoxComponent
   ],
   imports: [
     CommonModule,
     RouterModule.forChild(route),
+    MaterialModule,
     SharedModule,
-    FormsModule
-  ]
+    FormsModule,
+    ReactiveFormsModule
+  ],
+
+  exports: [RouterModule]
 })
 export class UserModule { }
