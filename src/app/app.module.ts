@@ -8,13 +8,14 @@ import { MaterialModule } from './material/material.module';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UserModule } from './user/user.module';
-import { AdminModule } from './admin/admin.module';
 import { MainpageComponent } from './shared/mainpage/mainpage.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    MainpageComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +23,8 @@ import { MainpageComponent } from './shared/mainpage/mainpage.component';
     BrowserAnimationsModule,
     MaterialModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    UserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

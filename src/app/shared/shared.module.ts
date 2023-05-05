@@ -2,13 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DirectivesComponent } from './directives/directives.component';
 import { MenuOutlineComponent } from './menu-outline/menu-outline.component';
-import { MainpageComponent } from './mainpage/mainpage.component';
 import { HeaderComponent } from './mainpage/header/header.component';
 import { FooterComponent } from './mainpage/footer/footer.component';
 import { MaterialModule } from '../material/material.module';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { SupportedDietComponent } from '../user/userhome/supported-diet/supported-diet.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -16,7 +16,6 @@ import { SupportedDietComponent } from '../user/userhome/supported-diet/supporte
   declarations: [
     DirectivesComponent,
     MenuOutlineComponent,
-    MainpageComponent,
     HeaderComponent,
     FooterComponent
   ],
@@ -25,9 +24,9 @@ import { SupportedDietComponent } from '../user/userhome/supported-diet/supporte
     MaterialModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,RouterModule
   ],
-  exports:[MainpageComponent]
+  exports:[]
 
 })
 export class SharedModule { }

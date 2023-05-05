@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CarouselService } from 'src/app/services/carousel.service';
 
 @Component({
@@ -8,27 +8,13 @@ import { CarouselService } from 'src/app/services/carousel.service';
   styleUrls: ['./details.component.css']
 })
 export class DetailsComponent {
+  state?:any;
   id:any;
   details:any;
-constructor(private cs : CarouselService,private ar:ActivatedRoute){
-  this.ar.params.subscribe(
-    {
-      next : (params) => {
-        this.id = params['id']
-        this.readdata()
-      },
-      error : () => this.id = 0
-    }
-  )
+constructor(private cs : CarouselService,private ar:ActivatedRoute, private router:Router){
 
+ this.state=this.router.getCurrentNavigation()?.extras.state;
 }
-readdata(){
-  this.cs.getdetails(this.id).subscribe(
-    {
-      next: (data:any) => this.details = data,
-      error : ()=>this.details = {}
-    }
-  )
-}
+
 
 }

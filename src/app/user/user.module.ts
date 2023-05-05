@@ -8,15 +8,18 @@ import { ProductrowComponent } from './userhome/productrow/productrow.component'
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MainpageComponent } from '../shared/mainpage/mainpage.component';
 import { MaterialModule } from '../material/material.module';
 import { SupportedDietComponent } from './userhome/supported-diet/supported-diet.component';
 import { BoxComponent } from './userhome/supported-diet/box/box.component';
 import { CategoryComponent } from './userhome/category/category.component';
 import { CategoryBoxComponent } from './userhome/category/category-box/category-box.component';
+import { FiltertypePipe } from '../pipes/filtertype.pipe';
+import { DetailsBoxComponent } from './userhome/supported-diet/box/details-box/details-box.component';
+import { CategoryDetailsComponent } from './userhome/category/category-box/category-details/category-details.component';
 
 const route:Routes=[
-
+  {path: 'categorydetails/:id', component : CategoryDetailsComponent},
+  {path: 'detailsbox/:id', component : DetailsBoxComponent},
   {
   path:"home",
   component: HomeComponent,
@@ -27,12 +30,12 @@ const route:Routes=[
     },
     {
       path:"sup",
-      component: SupportedDietComponent
+      component: SupportedDietComponent,
     },
     {
-      path : ':id',
-      component : DetailsComponent}
-
+      path:"cat",
+      component: CategoryComponent,
+    },
   ]
 }
 
@@ -48,7 +51,12 @@ const route:Routes=[
     SupportedDietComponent,
     BoxComponent,
     CategoryComponent,
-    CategoryBoxComponent
+    CategoryBoxComponent,
+    FiltertypePipe,
+    DetailsBoxComponent,
+    CategoryDetailsComponent
+
+    
   ],
   imports: [
     CommonModule,
@@ -56,7 +64,7 @@ const route:Routes=[
     MaterialModule,
     SharedModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
 
   exports: [RouterModule]

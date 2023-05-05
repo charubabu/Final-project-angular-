@@ -1,0 +1,23 @@
+.example-card {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    float: left;
+    padding: 20px;
+    border: 2px solid black;
+  }
+  
+  .example-header-image {
+    background-image: url("http://localhost/download (1).jpg");
+    background-size: cover;
+  }
+  img {
+    /* border: 2px solid black; */
+    height: 200px;
+  }
+  .buttonbox {
+    /* border: 8px solid gray; */
+    /* background-color: gray; */
+    text-decoration: none;
+    color: black;
+  }

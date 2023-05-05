@@ -7,6 +7,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./mainpage.component.css']
 })
 export class MainpageComponent {
+log: any;
 constructor(private router:Router,private route:ActivatedRoute){}
 navigate(url:string){
   if(url==""){
@@ -15,5 +16,10 @@ navigate(url:string){
   else{
     this.router.navigate([url],{relativeTo:this.route})
   }
+}
+
+
+logout(){
+  this.router.navigateByUrl('/login')
 }
 }

@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, filter } from 'rxjs';
 import { HttpHeaders, HttpClient } from '@angular/common/http';
+import { NavigationEnd, Router } from '@angular/router';
 
 
 @Injectable({
@@ -13,7 +14,8 @@ export class LogService {
  token:any='';
  email:any='';
  status:boolean=false;
-  constructor(private http:HttpClient) {
+ currentUrl: string = "";
+  constructor(private http:HttpClient,public route: Router) {
       let username=sessionStorage.getItem("username");
       let usertype=sessionStorage.getItem("usertype");
       let token=sessionStorage.getItem("token");
@@ -69,5 +71,12 @@ export class LogService {
      sessionStorage.removeItem("username");
      sessionStorage.removeItem("usertype");
      sessionStorage.removeItem("email");
+  }
+
+  initRouteService(){
+    this.route.events.pipe(filter((event: any) => event instanceof NavigationEnd)).subscribe((event)=>{
+      console.log(event?.url);
+      this.currentUrl = event?.url;
+    })
   }
 }

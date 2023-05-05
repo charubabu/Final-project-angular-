@@ -6,6 +6,7 @@
     <img mat-card-image src="http://localhost/{{pd.image}}" alt="Photo of a Shiba Inu" class="image">
     
     <mat-card-actions>
-      <a routerLink="/{{pd.id}}">DETAILS</a>
+      <!-- <a style="cursor: pointer;" (click)="changeRoute()">DETAILS</a> -->
+      <a routerLink = "/detailsbox/{{pd.id}}">details</a>
       </mat-card-actions>
   </mat-card>
