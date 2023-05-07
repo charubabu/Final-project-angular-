@@ -20,7 +20,7 @@
       "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE",
       "username": "ro",
       "lastname": "Fede",
-      "type": "ad",
+      "type": "admin",
       "id": 4
     },
     {
@@ -115,6 +115,20 @@
       "username": "chidanand",
       "type": "admin",
       "id": 17
+    },
+    {
+      "email": "yyy@gmail.com",
+      "password": "$2a$10$ES8yEd8zTtlaHK8QzgCZKeJeQ6GHFqx5MmSabttiw6h/UT5vng4HS",
+      "username": "yyyy",
+      "type": "user",
+      "id": 18
+    },
+    {
+      "email": "fridge@gmail.com",
+      "password": "$2a$10$lcvKXwU8z4TIpzKnx9SdNeviHUV1XQNGhDQFakM29CKm.pbloeq7S",
+      "username": "fridge",
+      "type": "user",
+      "id": 19
     }
   ],
   "carousel": [
@@ -122,48 +136,56 @@
       "id": 1,
       "category": "Flexible dieting",
       "image": "balanced.jpg",
+      "ques": "What is the Ketogenic Diet Plan, and why would you want to follow it?",
       "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
     },
     {
       "id": 2,
       "category": "Keto diet",
       "image": "keto.jpg",
+      "ques": "What is the Vegan Diet Plan, and why follow it?",
       "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
     },
     {
       "id": 3,
       "category": "Classic bodybuilding diet",
       "image": "bodybuild.jpg",
+      "ques": "What is the Paleo Diet Plan, and why follow it?",
       "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
     },
     {
       "id": 4,
       "category": "5:2 diet",
       "image": "fish.jpg",
+      "ques": "",
       "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
     },
     {
       "id": 5,
       "category": "Vegan Diet",
       "image": "vegan.jpg",
+      "ques": "What is the Vegan Diet Plan, and why follow it?",
       "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
     },
     {
       "id": 6,
       "category": "Paleo diet",
       "image": "fish.jpg",
+      "ques": "What is the Paleo Diet Plan, and why follow it?",
       "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
     },
     {
       "id": 7,
       "category": "Low carb diet",
       "image": "fish.jpg",
+      "ques": "What is the Paleo Diet Plan, and why follow it?",
       "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
     },
     {
       "id": 8,
       "category": "Low fat diet",
       "image": "fish.jpg",
+      "ques": "What is the Paleo Diet Plan, and why follow it?",
       "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
     }
   ],
@@ -180,7 +202,7 @@
       "Fiber": 0,
       "Carbs": 48,
       "Category": "Dairy products",
-      "image": "image.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 2,
@@ -194,7 +216,7 @@
       "Fiber": 0,
       "Carbs": 52,
       "Category": "Dairy products",
-      "image": "image1.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 3,
@@ -208,7 +230,7 @@
       "Fiber": 0,
       "Carbs": 13,
       "Category": "Dairy products",
-      "image": "image2.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 4,
@@ -222,7 +244,7 @@
       "Fiber": 0,
       "Carbs": 24,
       "Category": "Dairy products",
-      "image": "image3.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 5,
@@ -236,7 +258,7 @@
       "Fiber": 1.4,
       "Carbs": 119,
       "Category": "Dairy products",
-      "image": "image4.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 6,
@@ -250,7 +272,7 @@
       "Fiber": 0,
       "Carbs": 39,
       "Category": "Dairy products",
-      "image": "image5.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 7,
@@ -264,7 +286,7 @@
       "Fiber": 0,
       "Carbs": 42,
       "Category": "Dairy products",
-      "image": "image6.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 8,

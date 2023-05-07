@@ -16,4 +16,7 @@ export class FooditemsService {
   getProducts(): Observable<any>{
     return this.http.get("http://localhost:4500/nutrition")
   }
+  getdetails(id:number):Observable<any>{
+    return this.http.get("http://localhost:4500/nutrition/"+id)
+  }
 }

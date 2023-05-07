@@ -14,5 +14,16 @@
 .container-fluid{
     
     background-color: #6f42c1;
-    padding: 20px;
+    padding:  20px;
+    height : 5rem;
+    font-weight: bold;
+    font-size: 20px;
 }
+
+.navbar-brand{
+    font-size: larger;
+    font-style: italic;
+
+}
+
+

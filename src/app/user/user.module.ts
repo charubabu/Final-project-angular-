@@ -16,6 +16,7 @@ import { CategoryBoxComponent } from './userhome/category/category-box/category-
 import { FiltertypePipe } from '../pipes/filtertype.pipe';
 import { DetailsBoxComponent } from './userhome/supported-diet/box/details-box/details-box.component';
 import { CategoryDetailsComponent } from './userhome/category/category-box/category-details/category-details.component';
+import { MainpageComponent } from '../shared/mainpage/mainpage.component';
 
 const route:Routes=[
   {path: 'categorydetails/:id', component : CategoryDetailsComponent},
@@ -64,7 +65,7 @@ const route:Routes=[
     MaterialModule,
     SharedModule,
     FormsModule,
-    ReactiveFormsModule,
+    ReactiveFormsModule
   ],
 
   exports: [RouterModule]

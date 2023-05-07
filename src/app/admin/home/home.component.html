@@ -4,8 +4,9 @@
             <input type = 'text' name="search" [(ngModel)]="searchText" placeholder="Search by food items">
         </div> 
         <div class="col-md-3">
-            <button class="btn btn-success" (click)="addDietPlan()">Add</button>
-        </div>
+            <button class="btn btn-success" [routerLink]="'/add-diet-plan'">Add</button>
+        </div> 
+        
     </div>
 </div> 
 
@@ -21,6 +22,7 @@
                 <th>PROTEIN</th>
                 <th>FAT</th>
                 <th>FIBER</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -33,6 +35,7 @@
                 <td>{{data.Protein}}</td>
                 <td>{{data.Fat}}</td>
                 <td>{{data.Fiber}}</td>
+                <td> <button (click)="removeItem(data.id)"class="btn btn-danger" > <i class="material-icons ">delete</i></button></td>
             </tr>
         </tbody>
     </table>

@@ -26,7 +26,7 @@ import { RouterModule } from '@angular/router';
     FormsModule,
     ReactiveFormsModule,RouterModule
   ],
-  exports:[]
+
 
 })
 export class SharedModule { }

@@ -16,6 +16,11 @@ const route:Routes=[
 {
   path:"add-diet-plan",
   component: DietPlanFormComponent,
+},
+{
+  path:"delete-diet-plan",
+  component: DietPlanFormComponent,
+  
 }]
 
 @NgModule({
