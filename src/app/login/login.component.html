@@ -1,75 +1,9 @@
-<!-- <div id="login-card" *ngIf="logform">
-   
-        <table id="log-table">
-             <tr>
-                 <th>Email</th>
-                 <td><input type="text" class="form-label" [(ngModel)]="email"></td>
-             </tr>
-             <tr>
-                 <th>Password</th>
-                 <td><input type="password" class="form-label" [(ngModel)]="password"></td>
-             </tr>
-             <tr>
-                 
-                 <td colspan=2 
-                     style="text-align:center"><button class="btn btn-primary" (click)="login()">Login</button></td>
-             </tr>
-             <tr>
-                 
-                 <td colspan=2 
-                     style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
-             </tr>
-        </table>
-        <div class="loading" *ngIf="status"><img src="http://localhostloading.gif"></div>
-        <div class="errors">{{error}}</div>
-        
-    </div>
-
-
-    <div id="login-card" *ngIf="!logform">
-        
-            <table id="log-table">
-                 <tr>
-                     <th>Username</th>
-                     <td><input type="text" [(ngModel)]="rusername"></td>
-                 </tr>
-                 <tr>
-                     <th>Password</th>
-                     <td><input type="password" [(ngModel)]="rpassword"></td>
-                 </tr>
-
-                 <tr>
-                    <th>Verify Password</th>
-                    <td><input type="password" [(ngModel)]="vpassword"></td>
-                </tr>
-
-                <tr>
-                    <th>Email</th>
-                    <td> <input type="text" [(ngModel)]="remail"></td>
-                </tr>
-                 <tr>
-                     
-                     <td colspan=2 
-                         style="text-align:center"><button (click)="register()">Register</button></td>
-                 </tr>
-                 <tr>
-                     
-                     <td colspan=2 
-                         style="text-align:center; color: lightgreen" (click)="toggle()">Not Registered yet? Click here</td>
-                 </tr>
-            </table>
-            <div class="loading" *ngIf="status"><img src="http://localhostloading.gif"></div>
-            <div class="errors">{{rerror}}</div>
-    </div>  -->
-
 <div id="login-card" *ngIf="logform">
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
         <div class="row border rounded-5 p-3 bg-white shadow box-area">
             <div class="col-md-5 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
                 <div class="featured-image mb-3">
-                    <img src="http://localhost/ketocontent.png" class="img-fluid" style="width: 250px;">
-                    <p>be verified</p>
-                    <small>join experienced desinged on this platform</small>
+                    <img src="http://localhost/ketocontent.png" class="img-fluid" style="width: 250px;">                 
                 </div>
             </div>
             <div class="col-md-5 right-box">
@@ -93,6 +27,7 @@
                 </div>
 
             </div>
+            <div class="errors">{{error}}</div>
         </div>
     </div>
 </div>
@@ -103,14 +38,13 @@
         <div class="col-md-5 rounded-4 d-flex justify-content-center align-items-center flex-column left-box">
             <div class="featured-image mb-3">
                 <img src="http://localhost/ketocontent.png" class="img-fluid" style="width: 250px;">
-                <p>be verified</p>
-                <small>join experienced desinged on this platform</small>
+                
             </div>
         </div>
         <div class="col-md-5 right-box">
             <div class="row align-items-center">
                 <div class="header-text mb-4">
-            <P>REGISTER AS A NEW USER</P>
+            <p style="font-weight: bold; color: black;">REGISTER AS A NEW USER</p>
         </div>
         <div class="input-group mb-3">
             <input type="text" class="form-control form-control-lg bg-light fs-6" [(ngModel)]="rusername" placeholder="Username">
@@ -122,7 +56,7 @@
             <input type="password" class="form-control form-control-lg bg-light fs-6" [(ngModel)]="vpassword" placeholder="Re-enter Password">
         </div>
         <div class="input-group mb-3">
-            <input type="text" class="form-control form-control-lg bg-light fs-6" [(ngModel)]="remail" placeholder="email id">
+            <input type="text" class="form-control form-control-lg bg-light fs-6" [(ngModel)]="remail" placeholder="Email id">
         </div>
         <div class="input-group mb-3">
             <button class="btn btn-lg btn-primary w-100 fs-6" (click)="register()">Register</button>

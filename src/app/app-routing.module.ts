@@ -6,10 +6,12 @@ import { DietPlanFormComponent } from './admin/diet-plan-form/diet-plan-form/die
 
 const routes: Routes = [
   {path:"login",component:LoginComponent},
+
   {path:"user",
   loadChildren:() => import('./user/user.module').then(m => m.UserModule)},
-  {path:"admin",loadChildren: 
-  () => import('./admin/admin.module').then(m => m.AdminModule)},
+
+  {path:"admin",
+  loadChildren: () => import('./admin/admin.module').then(m => m.AdminModule)},
   {
   path:"add-diet-plan",
   component: DietPlanFormComponent

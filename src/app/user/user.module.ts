@@ -17,6 +17,8 @@ import { FiltertypePipe } from '../pipes/filtertype.pipe';
 import { DetailsBoxComponent } from './userhome/supported-diet/box/details-box/details-box.component';
 import { CategoryDetailsComponent } from './userhome/category/category-box/category-details/category-details.component';
 import { MainpageComponent } from '../shared/mainpage/mainpage.component';
+import { ContactComponent } from './userhome/contact/contact.component';
+import { ForumComponent } from './userhome/forum/forum.component';
 
 const route:Routes=[
   {path: 'categorydetails/:id', component : CategoryDetailsComponent},
@@ -37,6 +39,14 @@ const route:Routes=[
       path:"cat",
       component: CategoryComponent,
     },
+    {
+      path:"feed",
+      component: ContactComponent,
+    },
+    {
+      path:"forum",
+      component: ForumComponent
+    }
   ]
 }
 
@@ -55,9 +65,9 @@ const route:Routes=[
     CategoryBoxComponent,
     FiltertypePipe,
     DetailsBoxComponent,
-    CategoryDetailsComponent
-
-    
+    CategoryDetailsComponent,
+    ContactComponent,
+    ForumComponent    
   ],
   imports: [
     CommonModule,

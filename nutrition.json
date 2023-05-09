@@ -1,4 +1,59 @@
 {
+  "forum": [
+    {
+      "id": 1,
+      "username": "charu",
+      "comment": "helloooooo"
+    },
+    {
+      "id": 2,
+      "username": "anjali",
+      "comment": "heloooooo"
+    },
+    {
+      "id": 3,
+      "username": "vamsi",
+      "comment": "helloooooo"
+    },
+    {
+      "id": 4,
+      "username": "vishanthan",
+      "comment": "hii"
+    },
+    {
+      "usernmae": "monika",
+      "comment": "hellllloooo",
+      "id": 5
+    },
+    {
+      "usernmae": "chidanand",
+      "comment": "heee",
+      "id": 6
+    },
+    {
+      "usernmae": "admin",
+      "comment": "heyyyy",
+      "id": 7
+    }
+  ],
+  "complaints": [
+    {},
+    {
+      "id": 68804,
+      "fname": "charuu",
+      "email": "charu@gmail.com",
+      "message": "hey hello"
+    },
+    {
+      "id": 10302,
+      "fname": "charu",
+      "email": "char@gmail.com",
+      "message": "hello"
+    },
+    {
+      "id": 16360
+    }
+  ],
   "users": [
     {
       "email": "anil@gmail.com",
@@ -129,6 +184,20 @@
       "username": "fridge",
       "type": "user",
       "id": 19
+    },
+    {
+      "email": "charumathi@gmail.com",
+      "password": "$2a$10$1lU5nBIE6gsfdVqvGiKb7Oo4FUKcOyonsQ5i/Qri1AD.mfVX40W02",
+      "username": "charumathi",
+      "type": "user",
+      "id": 20
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$xUDncErmxLqIF5doZXXOrek.daFLKplmgFltdMLyCmy.7Y14V1PMW",
+      "username": "admin",
+      "type": "admin",
+      "id": 21
     }
   ],
   "carousel": [
@@ -136,57 +205,89 @@
       "id": 1,
       "category": "Flexible dieting",
       "image": "balanced.jpg",
-      "ques": "What is the Ketogenic Diet Plan, and why would you want to follow it?",
-      "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
+      "ques1": "What is the Ketogenic Diet Plan, and why would you want to follow it?",
+      "data1": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood.",
+      "ques2": "Types of ketogenic diet plans",
+      "data2": "While the keto diet plan is similar to the Atkins diet plan or other low-carb diet plans, it's specifically the act of forcing the body into ketosis that sets it apart. But, there are also multiple types of keto diet plans: Standard ketogenic diet plan: This diet plan typically contains macros of 70% fat, 20% protein and 10% carbs. Cyclical ketogenic diet plan: This diet plan involves cycling between keto and non-keto diet plans, such as five days on, two days off.Intermittent fasting ketogenic diet plan: This combines the keto diet plan with periods of calorie restriction in an effort to turbocharge weight loss and speed ketosis",
+      "ques3": "Benefits of the Keto diet plan",
+      "data3": "There are many pros to the keto diet plan, but perhaps the best is that it allows for the eating of delicious, high-fat food while still losing weight. You don't have to turn your nose up at hearty foods like bacon, steak, eggs and cheese.   Keto diet plans make you feel full and suppress your appetite. You might worry initially that a diet plan that allows for eating tons of bacon and cheese, foods heavily restricted on many diet plans. However, studies show that ketogenic diet plans suppress appetites by reducing hunger-stimulating hormones. Keto meals will help you feel full for longer, which leads to eating fewer calories over time."
     },
     {
       "id": 2,
       "category": "Keto diet",
       "image": "keto.jpg",
-      "ques": "What is the Vegan Diet Plan, and why follow it?",
-      "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
+      "ques1": "What is the Vegan Diet Plan, and why follow it?",
+      "data1": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood.",
+      "ques2": "Types of ketogenic diet plans",
+      "data2": "While the keto diet plan is similar to the Atkins diet plan or other low-carb diet plans, it's specifically the act of forcing the body into ketosis that sets it apart. But, there are also multiple types of keto diet plans: Standard ketogenic diet plan: This diet plan typically contains macros of 70% fat, 20% protein and 10% carbs. Cyclical ketogenic diet plan: This diet plan involves cycling between keto and non-keto diet plans, such as five days on, two days off.Intermittent fasting ketogenic diet plan: This combines the keto diet plan with periods of calorie restriction in an effort to turbocharge weight loss and speed ketosis",
+      "ques3": "Benefits of the Keto diet plan",
+      "data3": "There are many pros to the keto diet plan, but perhaps the best is that it allows for the eating of delicious, high-fat food while still losing weight. You don't have to turn your nose up at hearty foods like bacon, steak, eggs and cheese.   Keto diet plans make you feel full and suppress your appetite. You might worry initially that a diet plan that allows for eating tons of bacon and cheese, foods heavily restricted on many diet plans. However, studies show that ketogenic diet plans suppress appetites by reducing hunger-stimulating hormones. Keto meals will help you feel full for longer, which leads to eating fewer calories over time."
     },
     {
       "id": 3,
       "category": "Classic bodybuilding diet",
       "image": "bodybuild.jpg",
-      "ques": "What is the Paleo Diet Plan, and why follow it?",
-      "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
+      "ques1": "What is the Paleo Diet Plan, and why follow it?",
+      "data1": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood.",
+      "ques2": "Types of ketogenic diet plans",
+      "data2": "While the keto diet plan is similar to the Atkins diet plan or other low-carb diet plans, it's specifically the act of forcing the body into ketosis that sets it apart. But, there are also multiple types of keto diet plans: Standard ketogenic diet plan: This diet plan typically contains macros of 70% fat, 20% protein and 10% carbs. Cyclical ketogenic diet plan: This diet plan involves cycling between keto and non-keto diet plans, such as five days on, two days off.Intermittent fasting ketogenic diet plan: This combines the keto diet plan with periods of calorie restriction in an effort to turbocharge weight loss and speed ketosis",
+      "ques3": "Benefits of the Keto diet plan",
+      "data3": "There are many pros to the keto diet plan, but perhaps the best is that it allows for the eating of delicious, high-fat food while still losing weight. You don't have to turn your nose up at hearty foods like bacon, steak, eggs and cheese.   Keto diet plans make you feel full and suppress your appetite. You might worry initially that a diet plan that allows for eating tons of bacon and cheese, foods heavily restricted on many diet plans. However, studies show that ketogenic diet plans suppress appetites by reducing hunger-stimulating hormones. Keto meals will help you feel full for longer, which leads to eating fewer calories over time."
     },
     {
       "id": 4,
       "category": "5:2 diet",
       "image": "fish.jpg",
-      "ques": "",
-      "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
+      "ques": "What is the Paleo Diet Plan, and why follow it?",
+      "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood.",
+      "ques2": "Types of ketogenic diet plans",
+      "data2": "While the keto diet plan is similar to the Atkins diet plan or other low-carb diet plans, it's specifically the act of forcing the body into ketosis that sets it apart. But, there are also multiple types of keto diet plans: Standard ketogenic diet plan: This diet plan typically contains macros of 70% fat, 20% protein and 10% carbs. Cyclical ketogenic diet plan: This diet plan involves cycling between keto and non-keto diet plans, such as five days on, two days off.Intermittent fasting ketogenic diet plan: This combines the keto diet plan with periods of calorie restriction in an effort to turbocharge weight loss and speed ketosis",
+      "ques3": "Benefits of the Keto diet plan",
+      "data3": "There are many pros to the keto diet plan, but perhaps the best is that it allows for the eating of delicious, high-fat food while still losing weight. You don't have to turn your nose up at hearty foods like bacon, steak, eggs and cheese.   Keto diet plans make you feel full and suppress your appetite. You might worry initially that a diet plan that allows for eating tons of bacon and cheese, foods heavily restricted on many diet plans. However, studies show that ketogenic diet plans suppress appetites by reducing hunger-stimulating hormones. Keto meals will help you feel full for longer, which leads to eating fewer calories over time."
     },
     {
       "id": 5,
       "category": "Vegan Diet",
       "image": "vegan.jpg",
-      "ques": "What is the Vegan Diet Plan, and why follow it?",
-      "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
+      "ques1": "What is the Vegan Diet Plan, and why follow it?",
+      "data1": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood.",
+      "ques2": "Pros & Cons of the Vegan Diet Plan",
+      "data2": "A growing body of scientific evidence indicates that wholesome plant-based diets offer distinct advantages compared to diets containing animal-derived products. The benefits of a Vegan Diet Plan come from lower intakes of saturated fat, cholesterol and animal protein as well as higher intakes of complex carbohydrates, dietary fiber, magnesium, folic acid, vitamin C and E, and other nutrients. A balanced Vegan Diet Plan can provide all the nutrients a body needs to thrive. Nutritional deficiencies in Vegan Diet Plans are usually from poor planning. The EatThisMuch meal planner takes the guesswork out of crafting a Vegan Diet Plan, helping you craft a nutritionally complete meal.Following a Vegan Diet Plan is beneficial in preventing and treating cardiovascular disease, hypertension, diabetes, cancer, osteoporosis, renal disease and dementia, as well as diverticular disease, gallstones and rheumatoid arthritis.",
+      "ques3": "Staple foods on a Vegan Diet Plan",
+      "data3": "These days, vegan diets have gained significant popularity. Foods that adhere to a vegan diet plan are everywhere. Home cooks who make vegan meals at home will often have these staple foods at hand. Dried lentils: Cheap, full of protein and other nutrients, dried lentils last a long time in your pantry. This budget-friendly staple doesn’t need to be soaked and is great in soups and curry. Brown rice & quinoa: Whole-grain rice and protein-rich quinoa make an unbeatable combo."
     },
     {
       "id": 6,
       "category": "Paleo diet",
       "image": "fish.jpg",
-      "ques": "What is the Paleo Diet Plan, and why follow it?",
-      "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
+      "ques1": "What is the Paleo Diet Plan, and why follow it?",
+      "data1": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood.",
+      "ques2": "Pros & Cons of the Vegan Diet Plan",
+      "data2": "A growing body of scientific evidence indicates that wholesome plant-based diets offer distinct advantages compared to diets containing animal-derived products. The benefits of a Vegan Diet Plan come from lower intakes of saturated fat, cholesterol and animal protein as well as higher intakes of complex carbohydrates, dietary fiber, magnesium, folic acid, vitamin C and E, and other nutrients. A balanced Vegan Diet Plan can provide all the nutrients a body needs to thrive. Nutritional deficiencies in Vegan Diet Plans are usually from poor planning. The EatThisMuch meal planner takes the guesswork out of crafting a Vegan Diet Plan, helping you craft a nutritionally complete meal.Following a Vegan Diet Plan is beneficial in preventing and treating cardiovascular disease, hypertension, diabetes, cancer, osteoporosis, renal disease and dementia, as well as diverticular disease, gallstones and rheumatoid arthritis.",
+      "ques3": "Staple foods on a Vegan Diet Plan",
+      "data3": "These days, vegan diets have gained significant popularity. Foods that adhere to a vegan diet plan are everywhere. Home cooks who make vegan meals at home will often have these staple foods at hand. Dried lentils: Cheap, full of protein and other nutrients, dried lentils last a long time in your pantry. This budget-friendly staple doesnt need to be soaked and is great in soups and curry. Brown rice & quinoa: Whole-grain rice and protein-rich quinoa make an unbeatable combo."
     },
     {
       "id": 7,
       "category": "Low carb diet",
       "image": "fish.jpg",
-      "ques": "What is the Paleo Diet Plan, and why follow it?",
-      "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
+      "ques1": "What is the Paleo Diet Plan, and why follow it?",
+      "data1": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood.",
+      "ques2": "Pros & Cons of the Vegan Diet Plan",
+      "data2": "A growing body of scientific evidence indicates that wholesome plant-based diets offer distinct advantages compared to diets containing animal-derived products. The benefits of a Vegan Diet Plan come from lower intakes of saturated fat, cholesterol and animal protein as well as higher intakes of complex carbohydrates, dietary fiber, magnesium, folic acid, vitamin C and E, and other nutrients. A balanced Vegan Diet Plan can provide all the nutrients a body needs to thrive. Nutritional deficiencies in Vegan Diet Plans are usually from poor planning. The EatThisMuch meal planner takes the guesswork out of crafting a Vegan Diet Plan, helping you craft a nutritionally complete meal.Following a Vegan Diet Plan is beneficial in preventing and treating cardiovascular disease, hypertension, diabetes, cancer, osteoporosis, renal disease and dementia, as well as diverticular disease, gallstones and rheumatoid arthritis.",
+      "ques3": "Staple foods on a Vegan Diet Plan",
+      "data3": "These days, vegan diets have gained significant popularity. Foods that adhere to a vegan diet plan are everywhere. Home cooks who make vegan meals at home will often have these staple foods at hand. Dried lentils: Cheap, full of protein and other nutrients, dried lentils last a long time in your pantry. This budget-friendly staple doesn’t need to be soaked and is great in soups and curry. Brown rice & quinoa: Whole-grain rice and protein-rich quinoa make an unbeatable combo."
     },
     {
       "id": 8,
       "category": "Low fat diet",
       "image": "fish.jpg",
-      "ques": "What is the Paleo Diet Plan, and why follow it?",
-      "data": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood."
+      "ques1": "What is the Paleo Diet Plan, and why follow it?",
+      "data1": "The keto diet plan has grown in popularity in recent years, and it's a low carb, high fat diet that involves putting your body into a metabolic state called ketosis. Ketosis happens when fat provides most of the fuel for the body and glucose is in short supply, and you end up with a high concentration of ketones in the blood.",
+      "ques2": "Pros & Cons of the Vegan Diet Plan",
+      "data2": "A growing body of scientific evidence indicates that wholesome plant-based diets offer distinct advantages compared to diets containing animal-derived products. The benefits of a Vegan Diet Plan come from lower intakes of saturated fat, cholesterol and animal protein as well as higher intakes of complex carbohydrates, dietary fiber, magnesium, folic acid, vitamin C and E, and other nutrients. A balanced Vegan Diet Plan can provide all the nutrients a body needs to thrive. Nutritional deficiencies in Vegan Diet Plans are usually from poor planning. The EatThisMuch meal planner takes the guesswork out of crafting a Vegan Diet Plan, helping you craft a nutritionally complete meal.Following a Vegan Diet Plan is beneficial in preventing and treating cardiovascular disease, hypertension, diabetes, cancer, osteoporosis, renal disease and dementia, as well as diverticular disease, gallstones and rheumatoid arthritis.",
+      "ques3": "Staple foods on a Vegan Diet Plan",
+      "data3": "These days, vegan diets have gained significant popularity. Foods that adhere to a vegan diet plan are everywhere. Home cooks who make vegan meals at home will often have these staple foods at hand. Dried lentils: Cheap, full of protein and other nutrients, dried lentils last a long time in your pantry. This budget-friendly staple doesn’t need to be soaked and is great in soups and curry. Brown rice & quinoa: Whole-grain rice and protein-rich quinoa make an unbeatable combo."
     }
   ],
   "nutrition": [
@@ -202,7 +303,7 @@
       "Fiber": 0,
       "Carbs": 48,
       "Category": "Dairy products",
-      "image": "keto.jpg"
+      "image": "dairymilk.jpg"
     },
     {
       "id": 2,
@@ -216,7 +317,7 @@
       "Fiber": 0,
       "Carbs": 52,
       "Category": "Dairy products",
-      "image": "keto.jpg"
+      "image": "milkskim.jpg"
     },
     {
       "id": 3,
@@ -230,7 +331,7 @@
       "Fiber": 0,
       "Carbs": 13,
       "Category": "Dairy products",
-      "image": "keto.jpg"
+      "image": "butter.jpg"
     },
     {
       "id": 4,
@@ -258,7 +359,7 @@
       "Fiber": 1.4,
       "Carbs": 119,
       "Category": "Dairy products",
-      "image": "keto.jpg"
+      "image": "dairy.jpg"
     },
     {
       "id": 6,
@@ -272,7 +373,7 @@
       "Fiber": 0,
       "Carbs": 39,
       "Category": "Dairy products",
-      "image": "keto.jpg"
+      "image": "dairy.jpg"
     },
     {
       "id": 7,
@@ -384,7 +485,7 @@
       "Fiber": 0,
       "Carbs": "t",
       "Category": "Fats, Oils, Shortenings",
-      "image": "i1.jpg"
+      "image": "yolk.jpg"
     },
     {
       "id": 15,
@@ -398,7 +499,7 @@
       "Fiber": 0,
       "Carbs": "t",
       "Category": "Fats, Oils, Shortenings",
-      "image": "i2.jpg"
+      "image": "butter2.jpg"
     },
     {
       "id": 16,
@@ -917,6 +1018,19 @@
       "Carbs": 0,
       "Category": "Fish, Seafood",
       "image": "ima14.jpg"
+    },
+    {
+      "Food": "chocolate iccream",
+      "Measure": "85",
+      "Grams": "89",
+      "Calories": "23",
+      "Protein": "90",
+      "Fat": "90",
+      "Sat_Fat": "87",
+      "Fiber": "12",
+      "Carbs": "998",
+      "Category": "dairy products",
+      "id": 53
     }
   ]
 }

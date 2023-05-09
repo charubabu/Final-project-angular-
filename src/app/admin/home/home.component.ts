@@ -29,7 +29,7 @@ export class HomeComponent {
 
   removeItem(id: any){
     this.dietPlanService.removeDietPlan(id).subscribe(res =>{
-      this.matSnackBar.open(`Item removed from the cart`,'Ok',{duration: 3000});
+      this.matSnackBar.open(`product removed from plan`,'Ok',{duration: 3000});
       this.getProducts()
 
     });}
